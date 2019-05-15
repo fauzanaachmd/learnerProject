@@ -15,6 +15,7 @@
 		D4C8AD1A228BE5AA009F6C1C /* LearnerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8AD19228BE5AA009F6C1C /* LearnerModel.swift */; };
 		D4C8AD1C228BF592009F6C1C /* BagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8AD1B228BF592009F6C1C /* BagModel.swift */; };
 		D4C8AD1E228C0326009F6C1C /* FacilitatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8AD1D228C0326009F6C1C /* FacilitatorModel.swift */; };
+		D4C8AD20228C0992009F6C1C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8AD1F228C0992009F6C1C /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D4C8AD19228BE5AA009F6C1C /* LearnerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerModel.swift; sourceTree = "<group>"; };
 		D4C8AD1B228BF592009F6C1C /* BagModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagModel.swift; sourceTree = "<group>"; };
 		D4C8AD1D228C0326009F6C1C /* FacilitatorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitatorModel.swift; sourceTree = "<group>"; };
+		D4C8AD1F228C0992009F6C1C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D4C8AD07228BD857009F6C1C /* AppDelegate.swift */,
 				D4C8AD09228BD857009F6C1C /* ViewController.swift */,
 				D4C8AD0B228BD857009F6C1C /* Main.storyboard */,
+				D4C8AD1F228C0992009F6C1C /* RoundedButton.swift */,
 				D4C8AD0E228BD859009F6C1C /* Assets.xcassets */,
 				D4C8AD10228BD859009F6C1C /* LaunchScreen.storyboard */,
 				D4C8AD13228BD859009F6C1C /* Info.plist */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C8AD1C228BF592009F6C1C /* BagModel.swift in Sources */,
+				D4C8AD20228C0992009F6C1C /* RoundedButton.swift in Sources */,
 				D4C8AD0A228BD857009F6C1C /* ViewController.swift in Sources */,
 				D4C8AD1A228BE5AA009F6C1C /* LearnerModel.swift in Sources */,
 				D4C8AD1E228C0326009F6C1C /* FacilitatorModel.swift in Sources */,
