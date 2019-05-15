@@ -10,9 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var learnerNameLabel: UILabel!
+    
+    @IBOutlet weak var learnerAgeLabel: UILabel!
+    
+    @IBOutlet weak var learnerGenderLabel: UILabel!
+    
+    var learnerInstance: LearnerModel? // You just create copy of your LearnerModel
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        learnerInstance = LearnerModel(nameLearner: "Fau", ageLearner: 22, genderLearner: "Cowok", imageProfileLearmer: "")
+        updateUI()
+    }
+    
+    func updateUI() {
+        if let instance = learnerInstance {
+            learnerNameLabel.text = instance.name
+            learnerAgeLabel.text = "\(instance.age)"
+            learnerGenderLabel.text = instance.gender
+        }
     }
 
+    @IBAction func increaseAgeButtonClicked(_ sender: Any) {
+        
+    }
 }
