@@ -17,9 +17,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var learnerGenderLabel: UILabel!
     
     var learnerInstance: LearnerModel? // You just create copy of your LearnerModel
+    var facilitatorInstance: FacilitatorModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         learnerInstance = LearnerModel(nameLearner: "Fau", ageLearner: 22, genderLearner: "Cowok", imageProfileLearmer: "")
+        
         updateUI()
     }
     
